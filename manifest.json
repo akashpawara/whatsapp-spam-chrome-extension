@@ -1,0 +1,23 @@
+{
+  "name": "Injecta",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Injecting stuff",
+  "homepage_url": "https://web.whatsapp.com/",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Inject!"
+    
+  },
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "activeTab",
+    "tabs"
+  ]
+}
