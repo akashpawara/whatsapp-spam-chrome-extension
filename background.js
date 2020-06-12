@@ -1,9 +1,7 @@
-// this is the background code...
-
-// listen for our browerAction to be clicked
-chrome.browserAction.onClicked.addListener(function (tab) {
-	// for the current tab, inject the "inject.js" file & execute it
-	chrome.tabs.executeScript(tab.ib, {
+chrome.runtime.onMessage.addListener(function(message, sender) {
+	if(!message.myPopupIsOpen) return;
+	else{chrome.tabs.executeScript({
 		file: 'inject.js'
-	});
+	}); 
+	}
 });
