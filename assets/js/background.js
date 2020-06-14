@@ -1,7 +1,6 @@
-chrome.runtime.onMessage.addListener(function(message, sender) {
+chrome.runtime.onMessage.addListener((message, sender)=> {
 	if(!message.myPopupIsOpen) return;
 	else{chrome.tabs.executeScript({
 		file: 'assets/js/inject.js'
-	}); 
-	}
+	}); }
 });

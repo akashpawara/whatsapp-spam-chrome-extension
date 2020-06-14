@@ -51,7 +51,7 @@ input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none; 
   margin: 0; 
 }
-button{
+#injectMessage{
     background-color: rgba(0,255,255,0.5);
     border-radius: 60px;
     width: 80px;
@@ -59,7 +59,7 @@ button{
     margin-left: 20px;
     outline: none;
 }
-button:hover{
+#injectMessage:hover{
     background-color: rgba(0,255,255,0.7);
     transform: scale(1.09);
 }
