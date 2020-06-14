@@ -59,7 +59,11 @@ button{
     margin-left: 20px;
     outline: none;
 }
-#snackbar {
+button:hover{
+    background-color: rgba(0,255,255,0.7);
+    transform: scale(1.09);
+}
+#validation {
     visibility: hidden;
     min-width: 50px;
     margin: auto;
@@ -74,7 +78,27 @@ button{
     top: 80px;
     font-size: 17px;
   }
-#snackbar.show {
+#validation.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+#countRange {
+    visibility: hidden;
+    min-width: 50px;
+    margin: auto;
+    background-color: #333;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 2px;
+    padding: auto;
+    position: fixed;
+    z-index: 1;
+    left: 20%;
+    top: 80px;
+    font-size: 17px;
+  }
+#countRange.show {
     visibility: visible;
     -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
     animation: fadein 0.5s, fadeout 0.5s 2.5s;
