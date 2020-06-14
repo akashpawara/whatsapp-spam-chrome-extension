@@ -8,7 +8,6 @@ var eventFire = (MyElement, ElementType) => {
      (ElementType, true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null); 
     MyElement.dispatchEvent(MyEvent); 
 }; 
-
 async function myFunc() 
 { 
     let messageBox = document.querySelectorAll("[contenteditable='true']")[1]; 
@@ -30,7 +29,9 @@ async function myFunc()
         messageBox.innerHTML = message; // test it 
         event.initUIEvent("input", true, true, window, 1); 
         messageBox.dispatchEvent(event); 
-        eventFire(document.querySelector('span[data-icon="send"]'), 'click'); 
+        if(message && counter){
+            eventFire(document.querySelector('span[data-icon="send"]'), 'click'); 
+        }
     } 
 }
-startTimer();
+startTimer()

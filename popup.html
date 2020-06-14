@@ -2,17 +2,16 @@
 <html>
   <head>
     <title>Whatsapp Spammer</title>
-    <style>
-      h1{
-        font-size: 10px;
-      }
-    </style>
+    <link rel="stylesheet" href="assets/css/popup.css">
   </head>
   <body>
-    <h1>Whatsapp Spammer</h1>
-    <textarea placeholder="message" id="message"></textarea>
-    <input type="number" placeholder="count" id="count">
-    <button id="injectMessage">Send</button>
-    <script src="popup.js"></script>
+    <div class="container">
+      <h1>Whatsapp Spammer</h1>
+      <textarea placeholder="message" id="message" required></textarea>
+      <input type="number" placeholder="count" min="1" max="5" id="count" required>
+      <button id="injectMessage">Send</button>
+      <div id="snackbar">Some fields are Empty!</div>
+    </div>
+    <script type="text/javascript" src="assets/js/popup.js"></script>
   </body>
 </html>

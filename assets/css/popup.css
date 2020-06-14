@@ -1,0 +1,81 @@
+*{
+    padding 0;
+    margin 0;
+    border-radius: 50px;
+}
+html{
+    border-radius: 50px;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0,0,0,0.8);
+    color: white;
+}
+h1{
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 10px;
+    /* width: 200px; */
+    border-radius: 20px;
+    background-color:rgba(0,0,0,0.3);
+}
+.container{
+    opacity: 0.8;
+    width: 90%;
+    color: cyan;
+    text-align: center;
+}
+textarea{
+    width: 250px;
+    height: 80px;
+    font-size: 14px;
+    background-color: rgba(0,0,0,0.8);
+    color: cyan;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    outline: none;
+}
+input[type=number]{
+    background-color: rgba(0,0,0,0.8);
+    color: cyan;
+    width: 60px;
+    border-radius: 60px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    outline: none;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+button{
+    background-color: rgba(0,255,255,0.5);
+    border-radius: 60px;
+    width: 80px;
+    color: aliceblue;
+    margin-left: 20px;
+    outline: none;
+}
+#snackbar {
+    visibility: hidden;
+    min-width: 50px;
+    margin: auto;
+    background-color: #333;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 2px;
+    padding: auto;
+    position: fixed;
+    z-index: 1;
+    left: 20%;
+    top: 80px;
+    font-size: 17px;
+  }
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
