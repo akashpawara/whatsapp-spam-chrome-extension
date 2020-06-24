@@ -18,11 +18,11 @@ This application is for private or educational purposes only. Do not use it on o
 * [Social Media](#social-media)
 
 ## Quick start
-### Git-Fork
-- Fork the Project: `$ git clone https://github.com/akashpawara/college-fest-landing-page.git`.
-- Either fork it using above command or simply download zip & extract to your desired directory.
+### Git-Clone
+- Clone the Project: `$ git clone https://github.com/akashpawara/college-fest-landing-page.git`.
+- Either clone it using above command or simply download zip & extract to your desired directory.
 ### Installation
-- Open Chrome => Go to settings => Extension => Toggle Developer mode on => Click on Load unpack => select the forked directory.
+- Open Chrome => Go to settings => Extension => Toggle Developer mode on => Click on Load unpack => select the cloned directory.
 `Poof You have Succefully installed this extension!`:smile:
 ### How-To-Use
 - Open Whatsapp web.
