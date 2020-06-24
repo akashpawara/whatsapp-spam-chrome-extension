@@ -22,7 +22,7 @@ This application is for private or educational purposes only. Do not use it on o
 - Clone the Project: `$ git clone https://github.com/akashpawara/college-fest-landing-page.git`.
 - Either clone it using above command or simply download zip & extract to your desired directory.
 ### Installation
-- Open Chrome => Go to settings => Extension => Toggle Developer mode on => Click on Load unpack => select the cloned directory.
+- Open Chrome => Go to settings => Extension => Toggle Developer mode on => Click on Load unpacked => select the cloned directory.
 `Poof You have Succefully installed this extension!`:smile:
 ### How-To-Use
 - Open Whatsapp web.

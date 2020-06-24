@@ -8,7 +8,7 @@ sending = async ()=>{
     document.getElementById("injectMessage").innerHTML="Done!"; await sleep(1000);
     document.getElementById("injectMessage").innerHTML="send";
 }
-document.getElementById("injectMessage").addEventListener("click", ()=> {
+document.getElementById("injectMessage").addEventListener("click", async ()=> {
     let message = document.getElementById("message").value;
     let count = document.getElementById("count").value;
     if(!message && !count){
