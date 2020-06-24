@@ -30,7 +30,7 @@ This application is for private or educational purposes only. Do not use it on o
 - Open extension => Input your message & count => Click send
 `Poof you just spammed someone! :smile:`
 
-:warning: DO NOT INSERT MORE THEN 200 TIMES BECAUSE MOST OF THE TIME YOUR BROWSER WILL CRASH
+:warning: DO NOT INSERT MORE THEN 200 TIMES BECAUSE MOST OF THE TIME YOUR BROWSER WILL CRASH  
 :heavy_check_mark: Lucky for you guys I have kept the limit to 200. :smirk:
 
 ## File Structure
