@@ -1,6 +1,4 @@
-startTimer = async()=>{ 
-    setTimeout(inject, 2000); 
-} 
+startTimer = async()=>{ setTimeout(inject, 2000); } 
 eventFire = async(MyElement, ElementType)=>{ 
     let MyEvent = document.createEvent("MouseEvents"); 
     MyEvent.initMouseEvent(ElementType, true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null); 

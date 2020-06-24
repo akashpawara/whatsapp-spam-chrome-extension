@@ -12,6 +12,7 @@ document.getElementById("injectMessage").addEventListener("click", ()=> {
     let message = document.getElementById("message").value;
     let count = document.getElementById("count").value;
     if(!message && !count){
+        document.getElementById("countRange").innerHTML="Some fields are Empty!";
         let x = document.getElementById("validation");
         x.className = "show";
         setTimeout(()=>{ x.className = x.className.replace("show", ""); }, 2000);

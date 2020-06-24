@@ -20,7 +20,7 @@ This application is for private or educational purposes only. Do not use it on o
 ## Quick start
 ### Git-Fork
 - Fork the Project: `$ git clone https://github.com/akashpawara/college-fest-landing-page.git`.
-- Fork it to your desired directorty.
+- Either fork it using above command or simply download zip & extract to your desired directory.
 ### Installation
 - Open Chrome => Go to settings => Extension => Toggle Developer mode on => Click on Load unpack => select the forked directory.
 `Poof You have Succefully installed this extension!`:smile:
