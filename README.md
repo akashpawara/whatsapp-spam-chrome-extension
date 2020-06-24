@@ -23,12 +23,12 @@ This application is for private or educational purposes only. Do not use it on o
 - Fork it to your desired directorty.
 ### Installation
 - Open Chrome => Go to settings => Extension => Toggle Developer mode on => Click on Load unpack => select the forked directory.
-`Poof You have Succefully installed this extension! :smile:`
+`Poof You have Succefully installed this extension!`:smile:
 ### How-To-Use
 - Open Whatsapp web.
 - Select a contact or a group to whom you like to spam.
 - Open extension => Input your message & count => Click send
-`Poof you just spammed someone! :smile:`
+`Poof you just spammed someone!`:smile:
 
 :warning: DO NOT INSERT MORE THEN 200 TIMES BECAUSE MOST OF THE TIME YOUR BROWSER WILL CRASH  
 :heavy_check_mark: Lucky for you guys I have kept the limit to 200. :smirk:
