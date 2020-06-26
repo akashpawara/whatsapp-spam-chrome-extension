@@ -6,14 +6,13 @@ eventFire = async(MyElement, ElementType)=>{
 }
 inject = async()=>{ 
     let messageBox = document.querySelectorAll("[contenteditable='true']")[1]; 
-    let p = new Promise(function(resolve, reject){
+    let resolveCount = new Promise(function(resolve, reject){
         chrome.storage.sync.get({"count": true}, function(options){ resolve(options.count); })
     });
-    let q = new Promise(function(resolve, reject){
+    let resolveMessage = new Promise(function(resolve, reject){
         chrome.storage.sync.get({"message": true}, function(options){ resolve(options.message); })
     });
-    let counter = await p;
-    let message = await q;
+    let counter = await resolveCount; let message = await resolveMessage;
     for (i = 0; i < counter; i++) { 
         event = document.createEvent("UIEvents"); 
         messageBox.innerHTML = message; 

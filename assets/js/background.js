@@ -1,5 +1,5 @@
 chrome.runtime.onMessage.addListener((message, sender)=> {
-	if(!message.myPopupIsOpen) return;
+	if(!message.manageMischief) return;
 	else{chrome.tabs.executeScript({
 		file: 'assets/js/inject.js'
 	}); }

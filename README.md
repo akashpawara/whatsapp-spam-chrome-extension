@@ -14,6 +14,7 @@ This application is for private or educational purposes only. Do not use it on o
 
 * [Quick Start](#quick-start)
 * [File Structure](#file-structure)
+* [Article](#Article)
 * [Technical Support or Questions](#technical-support-or-questions)
 * [Social Media](#social-media)
 
@@ -53,6 +54,9 @@ whastapp-spam-chrome-extension/
 └── manifest.json
 
 ```
+
+## Article
+If you need a thorough explanation about the project you can visit and review [this article](https://medium.com/@akashpawara/how-to-build-a-chrome-extension-to-spam-on-whatsapp-using-vanilla-javascript-1c00faa6a2f7).
 
 ## Technical Support or Questions
 

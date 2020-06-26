@@ -1,5 +1,5 @@
 {
-  "name": "whatsapp-spammer",
+  "name": "WhatsApp Spammer",
   "version": "1.0",
   "manifest_version": 2,
   "author": "Akash Pawara",
@@ -7,13 +7,12 @@
   "icons":{
     "128":"/assets/icons/icon.png"
     },
-  "homepage_url": "https://web.whatsapp.com/",
   "background": {
     "scripts": ["assets/js/background.js"],
     "persistent": false
   },
   "browser_action": {
-    "default_title": "WhatSpam",
+    "default_title": "WhatsApp Spammer",
     "default_popup": "popup.html"
   },
   "permissions": [
