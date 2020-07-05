@@ -1,7 +1,7 @@
 # whatsapp-spam-chrome-extension (WSCE)
-A simple Chrome extension to spam your friends or group with repetitive messages.
+>A simple Chrome extension to spam your friends or group with repetitive messages.
 
-![version](https://img.shields.io/badge/version-1.0.0-blue.svg) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discordapp.com/users/228556195689005059) [![Profile](https://img.shields.io/badge/Linkedin-akashpawara-blue)](https://www.linkedin.com/in/akashpawara)
+![version](https://img.shields.io/badge/version-1.0-blue.svg) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discordapp.com/users/228556195689005059) [![Profile](https://img.shields.io/badge/Linkedin-akashpawara-blue)](https://www.linkedin.com/in/akashpawara) ![tag](https://img.shields.io/badge/tag-1.0-blue.svg)
  
 ![Product Gif](assets/icons/whatSpam.gif) 
 
@@ -52,7 +52,6 @@ whastapp-spam-chrome-extension/
 │       └── whatSpam.gif
 ├── popup.html
 └── manifest.json
-
 ```
 
 ## Article
@@ -63,16 +62,11 @@ If you need a thorough explanation about the project you can visit and review [t
 If you have questions or need help integrating the product, [contact me](https://api.whatsapp.com/send?phone=917506021898) me on whatsapp or email me at (akashpawara29@gmail.com).
 
 
-
 ## Social Media
 
 Linkedin: <https://www.linkedin.com/in/akashpawara>
 
 Medium: <https://medium.com/@akashpawara>
-
-Dev: <https://dev.to/akashpawara>
-
-Behance: <https://www.behance.net/akashpawara>
 
 Instagram: <https://instagram.com/akash_pawara_>
 
