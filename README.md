@@ -74,6 +74,6 @@ Dev: <https://dev.to/akashpawara>
 
 Behance: <https://www.behance.net/akashpawara>
 
-Instagram: <https://instagram.com/akash_pawara_>
+Instagram: <https://instagram.com/_akashpawara_>
 
 Whatsapp: <https://api.whatsapp.com/send?phone=917506021898>
